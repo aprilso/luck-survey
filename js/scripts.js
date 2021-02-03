@@ -1,21 +1,16 @@
-$(document).ready(function() {
-  //$("form#calculator").submit(function() {
+$(document).ready(function(){
+  $("form#luckSurvey").submit(function(event) {
     event.preventDefault();
+    $("luck-responses").show();
+    
 
-  });
+  }
+  
+  
+  
+
+
+
+
+  //
 });
-
-
-
-
-
-
-/*$("form#calculator").submit(function() {
-    event.preventDefault();
-    const number1 = parseInt($("#input1").val());
-    const number2 = parseInt($("#input2").val());
-    const operator = $("input:radio[name=operator]:checked").val();
-    const result = add(number1, number2);
-    $("#output").text(result);
-
-    */
